@@ -1,0 +1,114 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="REJNbbROhjtPa4-My0yA">
+    <mxGraphModel dx="3201" dy="947" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yomCGS3Q22eUymtWiygB-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" value="&lt;b&gt;Input:&lt;/b&gt; A sprawling landscape featuring frozen ocean, alongside areas of stony shore and snowy beach." vertex="1">
+          <mxGeometry height="70" width="150" x="-720" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="yomCGS3Q22eUymtWiygB-4" edge="1" parent="1" source="yomCGS3Q22eUymtWiygB-2" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.569;entryDx=0;entryDy=0;entryPerimeter=0;" target="yomCGS3Q22eUymtWiygB-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="-560" y="435" />
+              <mxPoint x="-560" y="350" />
+            </Array>
+            <mxPoint x="-640" y="380" as="sourcePoint" />
+            <mxPoint x="200" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yomCGS3Q22eUymtWiygB-11" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="yomCGS3Q22eUymtWiygB-12" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-358" y="260" as="sourcePoint" />
+            <mxPoint x="-340" y="299" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yomCGS3Q22eUymtWiygB-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" value="T5 Text Encoder" vertex="1">
+          <mxGeometry height="70" width="150" x="-520" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="yomCGS3Q22eUymtWiygB-15" edge="1" parent="1" source="yomCGS3Q22eUymtWiygB-2" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="yomCGS3Q22eUymtWiygB-14" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="-560" y="435" />
+              <mxPoint x="-560" y="535" />
+            </Array>
+            <mxPoint x="400" y="420" as="sourcePoint" />
+            <mxPoint x="450" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yomCGS3Q22eUymtWiygB-16" edge="1" parent="1" source="yomCGS3Q22eUymtWiygB-14" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="yomCGS3Q22eUymtWiygB-17" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="420" as="sourcePoint" />
+            <mxPoint x="610" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yomCGS3Q22eUymtWiygB-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" value="Text embedding" vertex="1">
+          <mxGeometry height="60" width="120" x="-318" y="505" as="geometry" />
+        </mxCell>
+        <mxCell id="yomCGS3Q22eUymtWiygB-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Bx2x256x256" vertex="1">
+          <mxGeometry height="30" width="60" x="-284" y="303" as="geometry" />
+        </mxCell>
+        <mxCell id="yomCGS3Q22eUymtWiygB-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="B, seq_len, 512" vertex="1">
+          <mxGeometry height="30" width="90" x="-303" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="yomCGS3Q22eUymtWiygB-44" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="yomCGS3Q22eUymtWiygB-45" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-359" y="380" as="sourcePoint" />
+            <mxPoint x="410" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yomCGS3Q22eUymtWiygB-45" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" value="Border Context and Mask" vertex="1">
+          <mxGeometry height="60" width="120" x="-318" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="yomCGS3Q22eUymtWiygB-59" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" value="G: optional map size" vertex="1">
+          <mxGeometry height="60" width="120" x="-710" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="yomCGS3Q22eUymtWiygB-61" edge="1" parent="1" source="yomCGS3Q22eUymtWiygB-59" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="yomCGS3Q22eUymtWiygB-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="470" y="560" as="sourcePoint" />
+            <mxPoint x="520" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yomCGS3Q22eUymtWiygB-84" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="288.5" width="190" x="-540" y="185.75" as="geometry" />
+        </mxCell>
+        <mxCell id="yomCGS3Q22eUymtWiygB-5" parent="yomCGS3Q22eUymtWiygB-84" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="288.5" width="180" as="geometry" />
+        </mxCell>
+        <mxCell id="yomCGS3Q22eUymtWiygB-6" parent="yomCGS3Q22eUymtWiygB-84" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" value="Parse Prompt" vertex="1">
+          <mxGeometry height="60" width="120" x="30" y="48.5" as="geometry" />
+        </mxCell>
+        <mxCell id="yomCGS3Q22eUymtWiygB-10" edge="1" parent="yomCGS3Q22eUymtWiygB-84" source="yomCGS3Q22eUymtWiygB-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="yomCGS3Q22eUymtWiygB-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yomCGS3Q22eUymtWiygB-7" parent="yomCGS3Q22eUymtWiygB-84" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" value="Large-scale geography terrain world map" vertex="1">
+          <mxGeometry height="60" width="120" x="30" y="129.25" as="geometry" />
+        </mxCell>
+        <mxCell id="yomCGS3Q22eUymtWiygB-8" parent="yomCGS3Q22eUymtWiygB-84" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" value="World map chunk grid" vertex="1">
+          <mxGeometry height="60" width="120" x="30" y="208.5" as="geometry" />
+        </mxCell>
+        <mxCell id="yomCGS3Q22eUymtWiygB-9" edge="1" parent="yomCGS3Q22eUymtWiygB-84" source="yomCGS3Q22eUymtWiygB-6" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="yomCGS3Q22eUymtWiygB-7" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="930" y="328.5" as="sourcePoint" />
+            <mxPoint x="980" y="278.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yomCGS3Q22eUymtWiygB-79" parent="yomCGS3Q22eUymtWiygB-84" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;Macro Terrain Generator&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="180" x="5" y="18.5" as="geometry" />
+        </mxCell>
+        <mxCell id="yomCGS3Q22eUymtWiygB-62" parent="yomCGS3Q22eUymtWiygB-84" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="GxG" vertex="1">
+          <mxGeometry height="30" width="60" x="134" y="144.25" as="geometry" />
+        </mxCell>
+        <mxCell id="yomCGS3Q22eUymtWiygB-86" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="73" width="132" x="-320" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="yomCGS3Q22eUymtWiygB-13" parent="yomCGS3Q22eUymtWiygB-86" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="12" y="13" as="geometry" />
+        </mxCell>
+        <mxCell id="yomCGS3Q22eUymtWiygB-12" parent="yomCGS3Q22eUymtWiygB-86" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" value="Batch of chunked marcro height and biome maps" vertex="1">
+          <mxGeometry height="60" width="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
